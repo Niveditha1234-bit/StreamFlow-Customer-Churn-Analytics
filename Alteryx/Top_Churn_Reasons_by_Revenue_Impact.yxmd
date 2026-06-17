@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2026.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Niveditha\Downloads\streamflow_customers.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>streamflow_customers.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="customer_id" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="customer_name" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="signup_date" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="age_group" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="gender" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="employment_status" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="estimated_income" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="device_type" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="operating_system" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="customer_tier" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="acquisition_channel" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="created_at" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_15" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_16" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_17" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_18" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_19" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_20" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_21" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_22" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_23" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_24" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_25" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_26" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_27" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_28" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+            <Field name="Field_29" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_customers.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="222" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>streamflow_subscriptions.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="subscription_id" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="customer_id" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="subscription_type" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="monthly_price" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="start_date" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="end_date" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="status" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="churn_reason" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="auto_renew" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="payment_method" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="promotional_code_used" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="lifetime_value_usd" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="created_at" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+            <Field name="updated_at" size="254" source="File: C:\Users\Niveditha\Downloads\streamflow_subscriptions.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="222" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="customer_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="customer_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_customer_id" selected="True" rename="Right_customer_id" input="Right_" />
+                <SelectField field="Right_created_at" selected="True" rename="Right_created_at" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="294" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>status</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2026-06-17 15:27:40</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <StartDate>2026-06-17 15:27:40</StartDate>
+              <EndDate>2026-06-17 15:27:40</EndDate>
+              <Operand>CHURNED</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[status] = "CHURNED"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="402" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="monthly_price" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="486" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="churn_reason" action="GroupBy" rename="churn_reason" />
+            <SummarizeField field="monthly_price" action="Sum" rename="Sum_monthly_price" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\NIVEDI~1\AppData\Local\Temp\Alteryx\Engine_20492_f25493b5b927432fa95f0d268599a160_\Engine_20492_55cfb1f40ad54c35b00bb8f5fa65af07~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="True" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Top_Churn_Reasons_by_Revenue_Impact</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1b372138-ab85-4ab9-90f7-97f58f7abec8" />
+      <Telemetry>
+        <PreviousWorkflowId value="a2a4040d-beaa-4ba0-a222-07f43eaf1283" />
+        <OriginWorkflowId value="a2a4040d-beaa-4ba0-a222-07f43eaf1283" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
