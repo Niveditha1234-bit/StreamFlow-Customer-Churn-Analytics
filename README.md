@@ -49,3 +49,11 @@ StreamFlow, a subscription-based video streaming platform, wants to answer the f
 - Launch proactive retention campaigns for customers showing low activity levels.
 - Enhance customer support quality to improve customer satisfaction and reduce churn.
 - Focus marketing investments on high-value subscription plans and acquisition channels that generate long-term revenue.
+
+# Alteryx
+
+- Alteryx Designer is a low-code/no-code data analytics and workflow automation platform that enables users to prepare, blend, transform, and analyze data using a drag-and-drop interface.
+- It helps automate repetitive data tasks and allows analysts to build end-to-end data workflows without extensive programming.
+- In this project, Alteryx was used to perform data preparation, transformation, and customer churn analysis on StreamFlow's customer and subscription datasets.
+-  Multiple workflows were developed using tools such as Input Data, Join, Filter, Select, Formula, Summarize, Sort, and Browse to analyze customer churn, revenue loss, customer acquisition trends, payment method performance, and subscription behavior.
+-  The workflows helped generate actionable business insights by automating data processing and transforming raw data into meaningful analytical outputs.
